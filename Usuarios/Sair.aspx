@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Sair.aspx.cs" Inherits="Usuarios.Sair" %>

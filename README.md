@@ -5,7 +5,7 @@
 
 Exemplo simples da arquitetura em 3 camadas ( 3 tier ) feito em C# . 
 Para fins de estudo e modelo para outros.<br>
-Um CRUD simples usando a arquitetura de 3 camadas.<br>
+Um <b>CRUD</b> simples usando a arquitetura de 3 camadas.<br>
 Para testar você pode forcar o repositório ou baixar os arquivos<br>
 <br>
 

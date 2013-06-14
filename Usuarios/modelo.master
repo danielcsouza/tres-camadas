@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="modelo.master.cs" Inherits="Usuarios.modelo" %>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cadastro de Usuario - 3 Camadas C#</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   <link href="css/bootstrap.css" rel="stylesheet" />
+   <link href="css/bootstrap-responsive.css" rel="stylesheet" />
+   <link href="css/jquery_notification.css" rel="stylesheet" />
+   <link href="css/estilo.css" rel="stylesheet" />
+
+   <script src="js/jquery-1.9.1.min.js"></script>
+   <script src="js/jquery.validate.min.js"></script>
+   <script src="js/jquery_notification_v.1.js"></script>
+   <script type="text/javascript">
+           function mensagem(mensagem, tipo) {
+               showNotification({
+                   message: mensagem,
+                   autoClose: true,
+                   type: tipo,
+                   duration: 5
+               });
+           }
+  </script>
+</head>      
+<body>
+    <form id="form" runat="server">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">3 Camadas</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.aspx">Listar</a></li>
+              <li><a href="AdicionarUsuario.aspx">Adicionar</a></li>
+              <li><a href="Login.aspx">Acessar</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+     <div class="container">
+        <asp:ContentPlaceHolder ID="conteudo" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div> 
+    </form>
+ 
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
