@@ -13,7 +13,7 @@ Para testar você pode forcar o repositório ou baixar os arquivos<br>
 
 <ol>
 <li>Crie um banco de dados no SQL Server com o nome que desejar</li>
-<li>Crie a tabela USUARIOS com o arquivo .sql ou com o comando abaixo</li>
+<li>Crie a tabela USUARIOS com o arquivo tabela.sql ou com o comando abaixo</li>
 <blockquote>
 
 CREATE TABLE [dbo].[USUARIOS](
